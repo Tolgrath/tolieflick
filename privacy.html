@@ -1,1 +1,66 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Privacy information for the TolieFlick Windows desktop project."><title>Privacy Policy — TolieFlick</title><link rel="stylesheet" href="style.css"></head><body><header class="site-header"><a class="logo" href="./"><span class="logo-mark">▶</span> TolieFlick</a><nav><a href="./">Home</a><a href="./#features">Features</a><a href="./#contact">Contact</a></nav><span class="status">In development</span></header><main class="policy"><p class="eyebrow">YOUR PRIVACY</p><h1>Privacy Policy</h1><p><strong>Last updated:</strong> 16 October 2026</p><p>TolieFlick is an independent Windows desktop application currently in development. This page describes the intended handling of information by the application and its optional integrations. As the project evolves, this policy may be updated to reflect its actual behavior.</p><h2>Local media and game libraries</h2><p>TolieFlick is designed to read folders selected by the user to organise local movies, TV series and games. The application may store library indexes, metadata, playback progress and preferences on the user's computer. Local library data is not intended to be uploaded to a TolieFlick-operated server.</p><h2>Third-party integrations</h2><p>Optional integrations may connect to YouTube, Twitch and third-party metadata services. When you choose to connect an account, TolieFlick may request the permissions necessary to display your subscriptions, followed channels or other relevant information. Requests to these services are governed by their own privacy policies and terms.</p><p>For YouTube, the planned integration uses read-only access to retrieve information relevant to the user's subscribed channels and videos. TolieFlick does not intend to upload videos or modify YouTube account content. The YouTube integration is subject to API access and may not be available at all times.</p><h2>Authentication and credentials</h2><p>Connected-account authentication information is intended to be stored locally using the operating system's credential storage where supported. Do not share authentication tokens, API keys or client-secret files publicly.</p><h2>Website</h2><p>This website is a static project-information site hosted on GitHub Pages. GitHub may process technical information associated with website visits under its own privacy practices. This site does not currently provide account registration or a contact form.</p><h2>Choices and access</h2><p>Online account connections are optional. You can choose not to connect third-party accounts. The application's connection-management and data-removal behavior will be documented more fully as development progresses.</p><h2>Contact</h2><p>For enquiries about the project or this policy, visit the <a href="https://github.com/Tolgrath/tolieflick">TolieFlick GitHub repository</a>. A dedicated privacy contact method will be added before any broader public release.</p><h2>Third-party policies</h2><p>See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, <a href="https://www.twitch.tv/p/en/legal/privacy-notice/">Twitch Privacy Notice</a>, and <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p></main><footer><a class="logo" href="./">TolieFlick</a><p>Independent Windows desktop project · In development</p><a href="./">Home</a></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy information for the TolieFlick Windows desktop project.">
+  <title>Privacy Policy — TolieFlick</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="./"><span class="logo-mark">▶</span> TolieFlick</a>
+    <nav>
+      <a href="./">Home</a>
+      <a href="./#features">Features</a>
+      <a href="./#contact">Contact</a>
+    </nav>
+    <span class="status">In development</span>
+  </header>
+
+  <main class="policy">
+    <p class="eyebrow">YOUR PRIVACY</p>
+    <h1>Privacy Policy</h1>
+    <p><strong>Last updated:</strong> 16 October 2026</p>
+    <p>TolieFlick is an independently developed Windows desktop application intended primarily for personal use. This policy describes the application's current design and known integrations. As development continues, this policy may be revised to reflect verified behavior and new features.</p>
+
+    <h2>Local media and game libraries</h2>
+    <p>TolieFlick lets users select folders containing local movies, TV series and games. It may store library indexes, media metadata, playback progress and application preferences on the user's computer. TolieFlick does not operate a cloud library server for uploading those local media files.</p>
+
+    <h2>Optional third-party services</h2>
+    <p>TolieFlick can connect to external services, including YouTube and Twitch, when the user chooses to authorize a connection. The application also uses external metadata services to look up information such as titles and artwork. These requests necessarily send relevant request information to the applicable service, which processes it under its own terms and privacy policy.</p>
+
+    <h2>YouTube integration</h2>
+    <p>If the user connects a Google account, TolieFlick requests the <strong>read-only YouTube permission</strong> (<code>https://www.googleapis.com/auth/youtube.readonly</code>). This permission is used to retrieve YouTube information for display inside the application, such as subscribed channels and associated video or activity information.</p>
+    <p>TolieFlick does not use this permission to upload videos, publish comments, modify subscriptions or change YouTube account content. YouTube functionality depends on the availability of Google's APIs and applicable API quotas.</p>
+
+    <h2>Twitch integration</h2>
+    <p>If the user connects Twitch, TolieFlick uses the authorized connection to display relevant Twitch content, such as followed channels, streams and videos, within the application. Twitch access is optional.</p>
+
+    <h2>Authentication and credentials</h2>
+    <p>TolieFlick is designed to store connected-account authentication credentials locally using the operating system's credential storage where supported. Credentials are used to authenticate requests to the services the user has connected. Do not publish authentication tokens, API keys or OAuth client-secret files.</p>
+
+    <h2>Disconnecting accounts and revoking access</h2>
+    <p>TolieFlick includes <strong>Disconnect YouTube</strong> and <strong>Disconnect Twitch</strong> controls in its settings. Users can use these controls to disconnect the respective integrations within the application.</p>
+    <p>Users can separately manage or revoke authorization through their provider's account settings. For Google, visit <a href="https://myaccount.google.com/connections">Google Account third-party connections</a>. Disconnecting inside an application does not necessarily revoke an authorization already granted at the provider.</p>
+
+    <h2>Website</h2>
+    <p>This website is a static project-information site hosted on GitHub Pages. It does not provide user registration or a contact form. GitHub may process technical information associated with website visits according to its own privacy practices.</p>
+
+    <h2>Your choices</h2>
+    <p>Connecting YouTube or Twitch is optional. Users may choose to use local-library features without connecting those services, and may disconnect connected accounts using the controls described above.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about TolieFlick or this privacy policy, contact the independent developer, <strong>Tolgrath</strong>, at <a href="mailto:tolgrath.orig.ellipsis@gmail.com">tolgrath.orig.ellipsis@gmail.com</a>. You can also visit the <a href="https://github.com/Tolgrath/tolieflick">TolieFlick GitHub repository</a>.</p>
+
+    <h2>Third-party policies</h2>
+    <p>See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, <a href="https://www.twitch.tv/p/en/legal/privacy-notice/">Twitch Privacy Notice</a>, and <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+  </main>
+
+  <footer>
+    <a class="logo" href="./">TolieFlick</a>
+    <p>Independent Windows desktop project · In development</p>
+    <a href="./">Home</a>
+  </footer>
+</body>
+</html>
